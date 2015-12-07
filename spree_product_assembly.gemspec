@@ -1,14 +1,14 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_product_assembly'
+  s.name        = 'solidus_product_assembly'
   s.version     = '1.0.1'
-  s.summary     = 'Adds oportunity to make bundle of products to your Spree store'
+  s.summary     = 'Adds oportunity to make bundle of products to your Solidus store'
   s.description = s.summary
   s.required_ruby_version = '>= 1.9.3'
 
   s.author            = 'Roman Smirnov'
   s.email             = 'POMAHC@gmail.com'
-  s.homepage          = 'https://github.com/spree-contrib/spree-product-assembly'
+  s.homepage          = 'https://github.com/Evertvandenbruel/solidus_product_assembly'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- spec/*`.split("\n")
